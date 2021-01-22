@@ -3,7 +3,7 @@
 
 //** Function 01 : kilometerToMeter /////////////////////////*/
 
-// This function will take one paramier 'km' for Kilometer
+// This function will take one parameter 'km' for Kilometer
 // and then convert it to Meter.
 
 function kilometerToMeter(km) {
@@ -15,7 +15,7 @@ function kilometerToMeter(km) {
     } else */
     if (typeof (km) != 'number') { // Check if it's a Number
 
-        return "Pleas provide a valid Number!";
+        return "Please provide a valid Number!";
 
     } else if (km < 0) { // Check if it's not a Negative Number
 
@@ -48,7 +48,7 @@ function budgetCalculator(totalWatches, totalMobiles, totalLaptops) {
 
         if (typeof (functionParameters[i]) != 'number') { // Check: if it's a Number
 
-            return "Pleas provide a valid Number!";
+            return "Please provide a valid Number!";
 
         } else if (functionParameters[i] < 0) { // Check: if it's not a Negative Number
 
@@ -87,15 +87,15 @@ function budgetCalculator(totalWatches, totalMobiles, totalLaptops) {
 
 //** Function 03 : hotelCost /////////////////////////*/
 
-// This function coust Hotel Rent thay applies
-// different conditions based ony one's staying days 
+// This function count Hotel Rent that applies
+// different conditions based on one's staying days 
 
 function hotelCost(totalDays) {
 
     // Validating the input
     if (typeof (totalDays) != 'number') { // Check if it's a Number
 
-        return "Please provide a Numaric Value!";
+        return "Please provide a Numeric Value!";
 
     } else if (totalDays < 0) { // Check if it's not a Negative Number
 
@@ -139,7 +139,7 @@ function hotelCost(totalDays) {
 //** Function 04 : megaFriend /////////////////////////*/
 
 // This function takes an array of string values as parameters 
-// and returns the 1st largest value if multile avaialble
+// and returns the 1st largest value if multiple available
 
 function megaFriend(friendsList) {
 
