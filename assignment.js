@@ -1,10 +1,11 @@
-// todo: Gitbub link will go here
+// https://github.com/mobarak-ali/module16
 
 
 //** Function 01 : kilometerToMeter /////////////////////////*/
 
 // This function will take one paramier 'km' for Kilometer
 // and then convert it to Meter.
+
 function kilometerToMeter(km) {
 
     // Validating Input
@@ -35,6 +36,7 @@ function kilometerToMeter(km) {
 //** Function 02 : budgetCalculator /////////////////////////*/
 
 // Calculates budget of some Electric Goods.
+
 function budgetCalculator(totalWatches, totalMobiles, totalLaptops) {
 
     // Validating Input
@@ -87,6 +89,7 @@ function budgetCalculator(totalWatches, totalMobiles, totalLaptops) {
 
 // This function coust Hotel Rent thay applies
 // different conditions based ony one's staying days 
+
 function hotelCost(totalDays) {
 
     // Validating the input
@@ -145,7 +148,7 @@ function megaFriend(friendsList) {
         return "Please provide a valid Array!";
 
     } else { // assumes the 1st value as the largest 
-        
+
         var largestName = friendsList[0];
 
         for (i = 0; i < friendsList.length; i++) { // Validating the value inside array
